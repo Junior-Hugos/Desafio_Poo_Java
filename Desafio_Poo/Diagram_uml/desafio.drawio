@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-09-10T18:08:50.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RtZ00f8XrBGLzvmB28Xv" version="21.7.4" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="4633" dy="2540" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-8" value="&lt;i&gt;IPhone&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-92" y="-1089" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-11" value="tocar(): void&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;pausa(): void&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;selecionarMusica(musica: String): void&lt;div style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;fazerChamada(numero: String): void&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;atenderChamada(): void&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;exibirPagina(url: String): void&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;adicionarNovaAba(): void&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;atualizarPagina(): void&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;iniciarCorreioDeVoz(): void&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YMOXkOPW1yycuf3kAlPt-8">
+          <mxGeometry y="26" width="220" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-9" value="musicaAtual: String&lt;br&gt;emChamada: boolean&lt;br&gt;paginaAtual: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YMOXkOPW1yycuf3kAlPt-8">
+          <mxGeometry y="168" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YMOXkOPW1yycuf3kAlPt-8">
+          <mxGeometry y="222" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-13" value="&lt;h3&gt;«interface»&lt;br&gt;AparelhoTelefonico&lt;/h3&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Söhne Mono, Monaco, Andale Mono, Ubuntu Mono, monospace&quot;&gt;&lt;b&gt;fazerChamada(numero: String): void&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Söhne Mono, Monaco, Andale Mono, Ubuntu Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 10.5px; background-color: rgb(247, 247, 248);&quot;&gt;&lt;b&gt;atenderChamada(): void&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Söhne Mono, Monaco, Andale Mono, Ubuntu Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 10.5px; background-color: rgb(247, 247, 248);&quot;&gt;&lt;b&gt;iniciarCorreioDeVoz(): void&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="374" y="-737" width="260" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-15" value="&lt;h3&gt;«interface»&lt;br&gt;ReprodutorMusical&lt;/h3&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;tocar(): void&lt;/div&gt;&lt;div&gt;pausar(): void&lt;/div&gt;&lt;div&gt;selecionarMusica(musica: String): void&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-544" y="-715" width="260" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-16" value="&lt;h3&gt;«interface»&lt;br&gt;NavegadorInternet&lt;/h3&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;exibirPagina(url: String): void&lt;/div&gt;&lt;div&gt;adicionarNovaAba(): void&lt;/div&gt;&lt;div&gt;atualizarPagina(): void&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-92" y="-649" width="260" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.531;exitY=-0.017;exitDx=0;exitDy=0;entryX=0.395;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YMOXkOPW1yycuf3kAlPt-15" target="YMOXkOPW1yycuf3kAlPt-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="42" y="-297" as="sourcePoint" />
+            <mxPoint x="33" y="-429" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-33" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.459;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YMOXkOPW1yycuf3kAlPt-16" target="YMOXkOPW1yycuf3kAlPt-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-236" y="-706" as="sourcePoint" />
+            <mxPoint x="-12" y="-966" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMOXkOPW1yycuf3kAlPt-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.514;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YMOXkOPW1yycuf3kAlPt-13" target="YMOXkOPW1yycuf3kAlPt-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="11" y="-704" as="sourcePoint" />
+            <mxPoint x="2" y="-967" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
